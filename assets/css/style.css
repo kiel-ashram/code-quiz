@@ -1,0 +1,85 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    padding: 25px;
+}
+
+header a {
+    padding: 5px 0;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 25px auto;
+    width: 95%;
+    flex-direction: column;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    padding: 5px;
+    margin: 0;
+    font-size: large;
+    border: none;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#submit-button {
+    padding: 5px;
+    margin: 50px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+   margin: 0;
+   padding: 0;
+}
+
+li {
+    list-style-type: none;
+    display: block;
+    padding: 10px 0;
+}
+
+button:hover {
+    background-color: lightpink;
+}
+
+.question-header {
+    color: black;
+    text-align: center;
+}
+
+.scoreContainer {
+    display: block;
+    
+}
+
+#quiz-title {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#quiz-intro {
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
